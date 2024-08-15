@@ -25,7 +25,6 @@ a{
 .cabezaTitulo{
     color: white;
     background-color: #333333;
-
 }
 
 .persLista{
@@ -34,4 +33,21 @@ a{
     background-color: #333333;
 }
 
+.paddingListas{
+    padding: 10px;
+}
 
+.paddingContenidos{
+    padding: 10px;
+}
+
+.anchoElementos input{
+    width: 50%;
+}
+
+.imagenContenido{
+    border: 1px solid black;
+    height: 200px;
+    background-image: url("../img/comision9.png");
+    background-repeat: no-repeat;
+}
