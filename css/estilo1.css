@@ -1,0 +1,103 @@
+/* 5 LINEAS DE COLORES */
+
+/*
+color-primario: #99ff00;
+color-secundario: #46453a;
+color-terciario: #8123de;
+color-cuarto: #11ff88;
+*/
+
+
+/*----------------------------------------------------------------*/
+
+
+/* TAMAÑO , FUENTE , COLOR A LAS LISTAS y FORMULARIO */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.cabezaTitulo{
+    color: white;
+    background-color: #333333;
+    text-align: center;
+}
+
+.footer{
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.persLista{
+    font-size: 18px;
+    background-color: #333333;
+    list-style: none;
+}
+
+.paddingContenidos{
+    padding: 10px;
+}
+
+.anchoElementos input{
+    width: 50%;
+}
+
+.imagenContenido{
+    width: 20%;
+    height: auto;
+    border: 1px solid white;
+}
+
+.contenidoPersonal{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex; 
+    border: 1px solid white;
+}
+
+.paddingListas{
+    padding: 10px;
+}
+
+@media (width < 700px){
+
+    img{
+        display: none;
+    }
+
+    .contenidoPersonal{
+        justify-content: center;
+    }
+
+}
+
+@media (width < 420px){
+
+    ul{
+        flex-direction: column;
+    }
+
+}
