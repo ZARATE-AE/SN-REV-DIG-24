@@ -23,6 +23,10 @@
     height: auto;
 }
 
+.card-header .title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .card-header ul{
     list-style: none;
     display: flex;
