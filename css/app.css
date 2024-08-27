@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* MEDIA QUERY RESPONSIVE HEADER */
+
+@media(max-width: 800px){
+    .header-container{
+        display: grid;
+    }
+}
+
+@media(max-width: 440px){
+    .logo-container{
+        display: grid;
+    }
+
+    .card-header ul{
+        display: grid;
+        text-align: center;
+    }
+}
+

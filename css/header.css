@@ -1,0 +1,42 @@
+.header-container{
+
+    background-color: #010101;
+    color: white;
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.card-header{
+
+    padding: 5px;
+}
+
+.card-header img{
+    width: 150px;
+    height: auto;
+}
+
+.card-header ul{
+    list-style: none;
+    display: flex;
+}
+
+.card-header ul a{
+    text-decoration: none;
+}
+
+.card-header li{
+    padding: 10px;
+    transition: 400ms;
+}
+
+.card-header ul li:hover{
+    background-color: #808080;
+}
