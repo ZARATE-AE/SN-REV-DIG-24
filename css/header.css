@@ -1,5 +1,4 @@
 .header-container{
-
     background-color: #010101;
     color: white;
     display: flex;
@@ -19,6 +18,7 @@
 }
 
 .card-header img{
+    border-radius: 100px;
     width: 150px;
     /*width: 20vh;*/
     height: auto;

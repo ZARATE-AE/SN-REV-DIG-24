@@ -1,0 +1,31 @@
+.main-container{
+    display: flex;
+    gap: 1em;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.main-container img{
+    border: 6px solid white;
+    border-radius: 900px;
+    width: 600px;
+    height: auto;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.card-main{
+    padding: 50px;
+}
+
+.card-main span{
+    font-size: 18px;
+}
+
+.card-main h1{
+    font-size: 45px;
+}
