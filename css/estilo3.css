@@ -69,7 +69,7 @@ ul{
     padding: 10px;
 }
 
-@media (width < 1050px){
+@media (width < 1200px){
 
     img{
         display: none;
