@@ -15,4 +15,8 @@
         display: grid;
         text-align: center;
     }
+
+    .card-header li{
+        border-bottom: transparent;
+    }
 }

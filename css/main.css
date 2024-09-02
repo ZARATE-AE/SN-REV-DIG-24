@@ -14,12 +14,16 @@ h1,span{
 }
 
 .card-main{
+    padding: 20px;
+}
+
+.card-main-img{
     padding: 50px;
 }
 
 .card-main a{
     /*border: 2px solid purple;*/
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
@@ -31,15 +35,39 @@ h1,span{
     height: auto;
 }
 
+.rd-border{
+    background-color: #3A260A;
+    border-radius: 0 0 600px 600px;
+    box-shadow: 0 10px 50px black;
+}
+
 .card-main span{
     font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .card-main h1{
     font-size: 45px;
 }
 
-.rd-btn{
-    background-color: #010101;
-    border-radius: 0 0 600px 600px;
+.mini-card-title1{
+    padding: 10px;
+}
+
+.mini-card-title2{
+    color: white;
+    background-color: #3A260A;
+    padding: 10px;
+}
+
+.btn a{
+    background-color: #3A260A;
+    padding: 10px;
+    transition: 200ms;
+    border-radius: 25px;
+}
+
+.btn a:hover{
+    background-color: #808080;
 }

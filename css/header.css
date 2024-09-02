@@ -39,8 +39,10 @@
 .card-header li{
     padding: 10px;
     transition: 400ms;
+    border-bottom: 5px solid #808080;
 }
 
 .card-header ul li:hover{
     background-color: #808080;
+    border-bottom: 5px solid #808080;
 }
