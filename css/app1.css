@@ -20,3 +20,49 @@
         border-bottom: transparent;
     }
 }
+
+/* MEDIA QUERY RESPONSIVE MAIN */
+
+@media(max-width: 800px){
+    .intro-container{
+        text-align: center;
+    }
+}
+
+@media(max-width: 850px){
+    .main-container{
+        display: grid;
+        padding-left: 10px;
+    }
+
+    .card-main a{
+        display: none;
+    }
+
+    .card-main-img {
+        display: flex;
+        justify-content: center; 
+    }
+}
+
+@media(max-width: 981px){
+    .card-main span{
+        display: none;
+    }
+}
+
+@media(max-width: 530px){
+    .main-container .card-main-img{
+        display: none;
+    }
+
+    .card-main a{
+        display: grid;
+    }
+}
+
+@media(max-width: 340px){
+    .main-container{
+        display: none;
+    }
+}
