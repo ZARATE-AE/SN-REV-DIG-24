@@ -13,6 +13,7 @@ h1,span{
 .intro-container{
     display: flex;
     flex-direction: column;
+    justify-content: end;
 }
 
 .card-main{

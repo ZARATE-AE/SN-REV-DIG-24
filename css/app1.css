@@ -49,6 +49,10 @@
     .card-main span{
         display: none;
     }
+
+    .intro-container{
+        justify-content: center;
+    }
 }
 
 @media(max-width: 530px){
