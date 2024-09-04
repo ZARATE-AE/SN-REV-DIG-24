@@ -1,0 +1,19 @@
+h3,P{
+    color: black;
+}
+
+.card-container-pro1{
+    border: 5px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-pro{
+    border: 2px solid red;
+}
+
+.card1{
+    grid-row: span 2;
+}
+
+
