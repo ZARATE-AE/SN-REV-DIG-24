@@ -43,6 +43,10 @@
         display: flex;
         justify-content: center; 
     }
+
+    .rd-border{
+        padding-top: 4vh;
+    }
 }
 
 @media(max-width: 996px){
@@ -51,7 +55,7 @@
     }
 
     .intro-container{
-        justify-content: center;
+        justify-content: start;
     }
 }
 

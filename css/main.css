@@ -13,7 +13,7 @@ h1,span{
 .intro-container{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
 }
 
 .card-main{
@@ -39,6 +39,7 @@ h1,span{
 }
 
 .rd-border{
+    padding-top: 15vh;
     background-color: #3A260A;
     border-radius: 0 0 600px 600px;
     box-shadow: 0 10px 50px black;
