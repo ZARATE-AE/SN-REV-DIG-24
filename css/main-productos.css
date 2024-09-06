@@ -7,7 +7,7 @@ h3,P{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
+    padding: 35px;
     gap: 1em;
 }
 .card-pro{
