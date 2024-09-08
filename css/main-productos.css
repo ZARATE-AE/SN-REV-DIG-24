@@ -2,6 +2,14 @@ h3,P{
     color: white;
 }
 
+.main-container-pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Seccion 1 */  /* FALTA AJUSTAR RESPONSIVE */
+
 .card-container-pro1{
     /*border: 5px solid blue;*/
     display: flex;
@@ -13,7 +21,7 @@ h3,P{
 .card-pro{
     /*border: 2px solid red;*/
     border-radius: 10px;
-    width: 45vw;
+    width: 40vw;
     height: 25vh;
     box-shadow: 0px 0px 5px 1px gray;
 }
@@ -26,9 +34,10 @@ h3,P{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 1;
 }
 
-.sub-card-container-pro2{
+.sub-card-container-pro1{
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -48,3 +57,48 @@ h3,P{
     background-position: center;
 }
 
+.card-titulo-cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    height: 100%;
+    gap: 1em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Seccion 2 */ /* FALTA AJUSTAR RESPONSIVE */
+
+.card-container-pro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    /*border: 5px solid blue;*/
+}
+
+.card-container-pro2 small,h4,ul{
+    color: black;
+    list-style-type: none;
+}
+
+.card-container-pro2 ul{
+    font-weight: bold;
+    padding: 8px 30px;
+    background-color: black;
+    border: 2px solid black;
+
+}
+
+.sub-card-container-pro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 75%;
+    background-color: #F7F7F7;
+    /*border: 5px solid blue;*/
+    border-radius: 2px;
+}
