@@ -69,7 +69,7 @@ h1,span{
     background-color: #3A260A;
     padding: 10px;
     transition: 200ms;
-    border-radius: 25px;
+    border-radius: 4px;
 }
 
 .btn a:hover{
