@@ -85,6 +85,15 @@ h3,P{
     list-style-type: none;
 }
 
+.sub-card-container-pro2 a{
+    text-decoration: none;
+}
+
+.btn-desc ul:hover{
+    background-color: #808080;
+    cursor: pointer;
+}
+
 .card-container-pro2 ul{
     font-weight: bold;
     padding: 8px 30px;

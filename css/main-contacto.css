@@ -1,11 +1,11 @@
 /* ENCABEZADO DE CONTACTO */
 
 .card-container-contacto{
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     height: 100%;
 }
 
@@ -45,48 +45,90 @@
 .card-container-contacto2{
     /*border: 3px solid orangered;*/
     background-color: #F7F7F7;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     width: 70%;
     height: 100%;
     padding: 20px;
     margin-top: 10px;
-    gap: 1em;
+    gap: 2em;
+    border-radius: 5px;
 }
 
 .card-container-form{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
-    padding: 40px 50px;
-    gap: 1em;
+    width: auto;
+    height: auto;
+    gap: 5em;
 }
 
 .card-container-form form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    padding: 5px;
+    gap: 1em
+}
+
+.card-container-form form h5{
+    color: black;
 }
 
 .card-container-form li{
-    color: black;
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
 }
 
 .card-container-contactar h5,small{
     color: black;
 }
 
+.card-container-contactar h5{
+    font-weight: bold;
+    font-size: 30px;
+}
+
 .card-container-contactar{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    background-color: white;
     display: flex;
     flex-direction: column;
     gap: 1em;
     justify-content: center;
-    padding: 40px 50px;
+    padding: 0px 20px;
+    width: 100%;
+    height: auto;
+}
+
+.card-container-contactar img{
+    max-width: 30px;
+    height: 30px;
+}
+
+.btn-form{
+    background-color: #3A260A;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.btn-form a{
+    text-decoration: none;
+}
+
+.btn-form:hover{
+    background-color: #808080;
+    cursor: pointer;
+}
+
+.card-input{
+    border: none;
+    font-size: medium;
+    color: black;
+    padding: 5px;
 }

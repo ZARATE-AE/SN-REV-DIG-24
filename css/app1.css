@@ -39,6 +39,11 @@
         display: none;
     }
 
+    .btn a{
+        margin-left: auto;
+    }
+    
+
     .card-main-img {
         display: flex;
         justify-content: center; 
