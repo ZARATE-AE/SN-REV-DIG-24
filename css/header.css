@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.header-container a{
+    text-decoration: none;
+}
+
 .logo-container{
     display: flex;
     align-items: center;
@@ -45,4 +49,8 @@
 .card-header ul li:hover{
     background-color: #808080;
     border-bottom: 5px solid #808080;
+}
+
+.card-header ul:hover{
+    cursor: pointer;
 }

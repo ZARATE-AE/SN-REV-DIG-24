@@ -141,7 +141,19 @@
     height: auto;
 }
 
-.card-container-contactar img{
+.card-container-contactar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
+
+.card-container-contactar .img1{
     max-width: 30px;
     height: 30px;
+}
+
+.card-container-contactar .img2{
+    max-width: 105px;
+    height: auto;
 }

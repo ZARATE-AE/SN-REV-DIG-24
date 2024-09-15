@@ -139,6 +139,11 @@ h3,P{
     list-style-type: none;
 }
 
+.card-container-pro3 a{
+    color: black;
+    text-decoration: none;
+}
+
 .card-container-pro3 ul{
     font-weight: bold;
     border-bottom: 2px solid black;
