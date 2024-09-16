@@ -1,7 +1,11 @@
+let nombre;
 
 function start(){
-    let nombre;
-    nombre = prompt('Ingrese su nombre'); 
-    console.log(nombre);
+    nombre = prompt('Ingrese su nombre').toUpperCase();;
+    if(nombre != "" && nombre != null){
+        alert(" ¡ BIENVENIDO  " + nombre + ' !');
+        window.location.href = './views/productos.html';
+    } else{
+        alert("Debe ingresar un nombre"); 
+    }
 }
-
